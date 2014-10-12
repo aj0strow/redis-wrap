@@ -5,7 +5,11 @@ Redis.current = Redis.new(db: 0)
 
 class Minitest::Spec
   after(:each) do
-    Redis.current.flushdb
+    redis.flushdb
+  end
+
+  def redis
+    Redis.current
   end
 end
 

@@ -80,4 +80,13 @@ CachedFind.new(User, params[:id]).fetch
 
 ### Install
 
-**TODO.**
+```ruby
+# Gemfile
+
+gem 'redis'
+gem 'redis-wrap'
+```
+
+```sh
+$ bundle install
+```

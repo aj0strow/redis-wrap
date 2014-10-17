@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'redis-wrap'
-  s.version = '0.0.0'
+  s.version = '0.0.1'
 
   # metadata
   s.license = 'MIT'
